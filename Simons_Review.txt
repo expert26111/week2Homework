@@ -1,0 +1,15 @@
+
+
+Simon's Triangel Programme Review
+
+The programme does work and covers the cases where:
+-triangle side is negative
+-string object
+It is good that the programme does not stop but continues working
+even if the user entered negative value or String object.
+It is really good the programme checks if the triangle sides actually can 
+be triangle sides.
+
+It could be:
+- used instead of type double for the triangle sides type float (less memory space)
+- you could create only one Scanner object, put the creation of Scanner outside the method

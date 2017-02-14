@@ -1,0 +1,42 @@
+
+Code standard
+
+    -Eight spaces should be used as the unit of indentation.
+    -Code lines should be no longer than 40 characters.
+    -When commenting it can be only used block or single-line comment
+    -When writing a statement always start the curly bracket on a new line
+and always close it on a new line
+Example:
+if(code == true)
+{
+
+}
+
+    -Each of your lines should contain at most one statement:
+Example:
+count = count + 1;//Correct
+count = count + 1; count = count - 1; //Wrong
+
+   -There should always be one blank lines between:
+between mwthods
+after and before a block or single-line of comments
+
+   -Class names shoudl always be compund of two nouns:
+Example:
+MouseHandler
+
+   -The variable names should represent in best possible way the usage of it.The only exception is 
+if temporary variables created:
+For example the variable i:
+for(int i = 0; i < temp; i++)
+{
+  
+}
+  -The names of constants always have to be with capital letters:
+Example:
+static final int MIN_DISTANCE = 6;
+
+
+
+  
+     
